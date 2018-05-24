@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "livecode-asep",
+  "private_key_id": "a10f8291cc5a06e696d3e9d2dc93bb1c6b8283e9",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDGOwnkSiQXvHJp\nZPHGmvJCbTLL25Qb94+wKbX+23pRXbcDa9k13Tmg68zvD+TpwCxCfKgfvWGp2/w9\n5simAcf6o2lgiQRbWDwDbv0XqFHgeLR2hrlNtjqS6609NoSgD41mOHa8/g2Uv1ko\ncgNXBmpfLvm4s9KhSpFy8HKz1Ra8vWGGgb0sVb4KRfNIdJuoD9nhA/1qNQ51LYRL\n8wiIVnevuXGmaiPJlibNn5BCii5kUeKgaTNoRfy4reT9UhJEQQZN8aRVezkUq0Pt\nML1wa4Fnjyu8vUQ32ZjiCpg2Q9t/HRoNZZnmXyWAI0WaMeZxrPqA9dD5hZjFGmrS\nH4Sj68mXAgMBAAECggEAAMO3S5oJprNFeW8soOw3eHxylct8Cj+FeKqtcFUmpXne\nRPeiWRfl1CrV4FXMPgXHCTQYg8ukr76L2eWgAE08WrWiTF6XOBu8w7iF39mStYXU\nHUVfJ/f38D90NkUId8iXKVZ4E8pXTNZRrShy5cwqcmweypC80zyM/Uk//LeXoiBF\nuvUG1PqaNw1JBMA6oshOzQBUwihI/i9G+Rls29qJ1nRGD8TUAL6lCvWFf5M6jH5k\nROKQoNCBwvaCn0w69rl53PzPGBiCW7Hfd1DK622ZNofDBayFYWMF8S4/6o4n4zq0\nDP6cdzA/lGCLzngrB2yT42itiQPe35IDCzOGlWa6oQKBgQDuhTWibXsJSvvIgPBI\nBSD7G2iy5iWzM8y/jjsIainkE55YLqUa94zh6b1jBTU6i3052CK+eCSFmuoUgw81\nYP85/5p6+EtR6e4pZlK+J0WHwpq7kKRc+xGmeHXEnVzzug7B7z1dyMxVQvgvkrrb\nSKjfBIHvYEcKNw9zPYr8z0qEYQKBgQDUwff689W31lMsGzA7wiDUics3KrfAAsoI\nxyHOViB5uZ/47FgZtIO5tx+3jJv413nB8JR/GPmGMk360ksQbp8Y+wkuf6yyaOx3\nRRHUNiVWu8TiwJ2Hg6JVcAXAC2iyWUrAqut0CYdV+X4o/A0JDdwzFJ9IKq5n9Uyb\nlhS98sAQ9wKBgHDDCzsx9PPMvkHpKy9xNUlhiNri0TnqKEb7L89nmUxZNgfMbYPV\nOoZnIYDZqnN2FIqvMqXHWMTNGxL9bsg2hhLeUyMFlV4xcMWjuURqfoWTK+G2nO3U\nSGDiHBMKrjIPaQCoYOOglXFNitW60ZnvvN5KXD9Vzd/3bdd2Zenk+f6hAoGATcN/\n8hfBm+oYiFx/qrfv6/9ZaZaRhvr+AWtXbeWJBTTVxdQM94hFRVIro5kfQTrw4/Qd\nMr9cJLKqUe0fRqhIOoc2+enso2E6XPW/6ILJ7wO+mOqyKV/xq6zATUtePyHn8rgG\nS2lYMBJ7DFvkH9UTERCOj4AaMyEzmQKoHi1mCk0CgYEAsmzz4sJTK3fI0Vrreq49\nzVPEN7ZjI1PzvmzTPcRxdN/dALgP6iFBcmB6lh5vmDceaB0JtFXwyqeM22/P/UoG\n4nYb2iXDD0Z8xNWSLy37R7OXrkTbFWq67FSfladbaSpsUo99Ra1Oglmlxq7am+EN\n2BIH2yxGW8czTJUAAFLM8Ic=\n-----END PRIVATE KEY-----\n",
+  "client_email": "book-review@livecode-asep.iam.gserviceaccount.com",
+  "client_id": "100794537765766980752",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/book-review%40livecode-asep.iam.gserviceaccount.com"
+}
