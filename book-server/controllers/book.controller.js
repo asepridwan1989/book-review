@@ -4,29 +4,20 @@ const mongoose = require('mongoose')
 
 module.exports = {
     getListSelf: (req, res)=>{
-        const token = req.headers.token
-        let verified = jwt.decode(token,process.env.TOKENKEY)
-        const userId = verified.id
-        Book.find({
-            userId
+      const id = mongoose.Types.ObjectId(req.params.id)
+      Book.find()
+      .populate('userId', 'username')
+      .then((book) => {
+      res.status(201).json({
+          message: 'successfuly add new item',
+          data: book
         })
-        .then(book=>{
-          if(book.length > 0){
-              res.status(200).json({
-                  message: 'successfuly got data',
-                  data: book
-              })
-          }else{
-            res.status(200).json({
-                message: 'you dont have any Book'
-            })
-          }
+      })
+      .catch(error=>{
+        res.status(400).json({
+          message: 'failed to add new item'
         })
-        .catch(err=>{
-            res.status(403).json({
-                message: 'invalid user'
-            })
-        })
+      })
     },
 
     addBook: (req, res)=>{
@@ -119,13 +110,13 @@ module.exports = {
     },
     getListAll: (req, res)=>{
         Book.find()
-        .populate('user')
-        .then(Book=>{
-          console.log(Book)
+        .populate('userId', 'username')
+        .then(book=>{
+          console.log(book)
           if(book.length > 0){
               res.status(200).json({
                   message: 'successfuly got data',
-                  data: Book
+                  data: book
               })
           }else{
                 res.status(200).json({
